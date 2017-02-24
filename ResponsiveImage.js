@@ -1,11 +1,12 @@
 'use strict';
 
-let React = require('react-native');
+let ReactNative = require('react-native');
+let React = require('react');
 let {
  Image,
  PixelRatio,
  PropTypes,
-} = React;
+} = ReactNative;
 
 class ResponsiveImage extends React.Component {
 
