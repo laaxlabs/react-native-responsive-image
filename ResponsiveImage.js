@@ -5,8 +5,11 @@ let React = require('react');
 let {
  Image,
  PixelRatio,
- PropTypes,
 } = ReactNative;
+
+let {
+ PropTypes,
+} = React;
 
 class ResponsiveImage extends React.Component {
 
